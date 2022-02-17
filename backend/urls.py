@@ -18,9 +18,6 @@ from django.urls import path
 from rest_framework import routers
 from urlapp import views
 from django.urls.conf import include
-from django.views.static import serve
-from django.conf.urls import url
-from django.conf import settings
 
 router_text = routers.DefaultRouter()
 router_ip = routers.DefaultRouter()
